@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  hello_app:
+    container_name: hello_app
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - hello_volume:/app
+volumes:
+  hello_volume:
+
+
