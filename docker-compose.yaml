@@ -6,9 +6,5 @@ services:
     build: .
     ports:
       - "5000:5000"
-    volumes:
-      - hello_volume:/app
-volumes:
-  hello_volume:
 
 
