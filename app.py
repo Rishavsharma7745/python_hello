@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Version three using docker-compose now'
+    return 'Changing the version'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
